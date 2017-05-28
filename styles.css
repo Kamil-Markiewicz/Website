@@ -1,0 +1,119 @@
+head {
+	font-family: 'Roboto', sans-serif;
+}
+body {
+    background-color: #FFFFFF;
+	font-family: 'Roboto', sans-serif;
+	margin: 0px;
+}
+#titlebar {
+	background-color: #0060FF;
+	border-bottom: 2px solid #000000;
+}
+#cols {
+	display: table;
+    width: 100%;
+	overflow: auto;
+}
+#column1 {
+	display: table-cell;
+	width: 10%;
+	padding: 4px;
+	border-right: 2px solid #B8B8B8;
+	background-color: #FFFFFF;
+}
+#column2 {
+	display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+	background-color: #F1F1F1;
+}
+#menu {
+	width: 100%;
+	margin: 0px;
+	padding: 4px;
+	background-color: #FFFFFF;
+	border-bottom: 2px solid #B8B8B8;
+	display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+	margin-bottom: 16px;
+}
+.menuItem {
+	padding-left: 4px;
+	padding-right: 4px;
+	margin-left: 4px;
+	margin-right: 4px;
+}
+.menuItem:hover {
+	border-bottom: 2px solid #000000;
+}
+.menuItemSel {
+	padding-left: 4px;
+	padding-right: 4px;
+	margin-left: 4px;
+	margin-right: 4px;
+	border-bottom: 2px solid #0060FF;
+}
+.menuItemSel:hover {
+	border-bottom: 2px dashed #0060FF;
+}
+@media screen and (orientation:landscape) {
+	#main {
+		width:854px;
+	}
+	@media (max-width: 9999px) {/*beyond 1080p screen*/
+		#main {
+			width:1920px;
+		}
+	}
+	@media (max-width: 1948px) {/*1080p screen*/
+		#main {
+			width:1280px;
+		}
+	}
+	@media (max-width: 1308px) {/*720p screen*/
+		#main {
+			width:854px;
+		}
+	}
+	.item {
+		padding: 4px;
+		background-color: #FFFFFF;
+		border: 2px solid #B8B8B8;
+		margin-bottom: 16px;
+	}
+}
+@media screen and (orientation:portrait) {
+	#main {
+		width:100%;
+	}
+	.item {
+		padding: 4px;
+		background-color: #FFFFFF;
+		border-bottom: 2px solid #B8B8B8;
+		border-top: 2px solid #B8B8B8;
+		margin-bottom: 16px;
+	}
+}
+h2 {
+	color: #0060FF;
+}
+#foot {
+	background-color: #FFFFFF;
+	padding: 4px;
+	border-top: 2px solid #B8B8B8;
+}
+h1 {
+    color: white;
+	margin: 0px;
+	padding: 8px;
+}
+.menuLink {
+	text-decoration : none;
+	color : #000000;
+}
+p {
+    color: black;
+	margin: 0px;
+}
