@@ -73,6 +73,7 @@ body {
 		border: 2px solid #B8B8B8;
 		margin-bottom: 16px;
 		overflow:hidden;
+		box-shadow: 4px 4px 4px #888888;
 	}
 	@media (max-width: 9999px) {/*beyond 1080p screen*/
 		#main {
@@ -99,6 +100,7 @@ body {
 			border-bottom: 2px solid #B8B8B8;
 			border-top: 2px solid #B8B8B8;
 			margin-bottom: 16px;
+			box-shadow: 4px 4px 4px #888888;
 		}
 	}
 }
@@ -119,6 +121,7 @@ body {
 		border-bottom: 2px solid #B8B8B8;
 		border-top: 2px solid #B8B8B8;
 		margin-bottom: 16px;
+		box-shadow: 4px 4px 4px #888888;
 	}
 }
 h2 {
